@@ -40,6 +40,7 @@ export class GameRenderer {
         // this.controls = new FirstPersonControls(this.camera, this.renderer.domElement)
         // this.controls.lookSpeed = 0.1
         // this.controls.movementSpeed = 100
+//
 
         const dirLight = new THREE.DirectionalLight(0xffffe0, 0.4);
         dirLight.position.set(20, 100, 10);
